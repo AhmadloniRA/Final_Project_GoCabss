@@ -1,0 +1,66 @@
+.custom-background {
+  --background: #fddf5c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-button {
+  color: #000;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.otp-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: center;
+  color: #000;
+}
+
+.otp-subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin: 15px;
+  color: #333;
+  padding: 0 20px;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 30px 0;
+}
+
+.otp-box {
+  width: 80px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+}
+
+.otp-box.selected {
+  border: 3px solid #1abc9c;
+  background-color: #d4ffe9;
+}
+
+.otp-timer {
+  font-size: 14px;
+  color: #444;
+  text-align: center;
+}
+
+.resend-link {
+  font-size: 14px;
+  text-align: center;
+  color: #0c8bff;
+  margin-top: 10px;
+  text-decoration: underline;
+}

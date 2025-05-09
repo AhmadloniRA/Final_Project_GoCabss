@@ -1,0 +1,22 @@
+<ion-content class="ion-padding custom-background">
+
+  <!-- Tombol Back -->
+  <ion-button fill="clear" size="large" class="back-button" (click)="goBack()">
+    <ion-icon slot="start" name="arrow-back"></ion-icon>
+  </ion-button>
+
+  <h2 class="otp-title">Masukin OTP nye 😄</h2>
+  <p class="otp-subtitle">
+    Check your messages! We've sent a one-time code to <b>+62 811304768</b>.
+    Enter the code below to verify your account and continue.
+  </p>
+
+  <div class="otp-inputs">
+    <input type="text" maxlength="1" class="otp-box" inputmode="numeric" pattern="[0-9]*">
+    <input type="text" maxlength="1" class="otp-box" inputmode="numeric" pattern="[0-9]*">
+    <input type="text" maxlength="1" class="otp-box" inputmode="numeric" pattern="[0-9]*">
+    <input type="text" maxlength="1" class="otp-box" inputmode="numeric" pattern="[0-9]*">
+  </div>
+
+  <p class="resend-link">Resend code</p>
+</ion-content>
